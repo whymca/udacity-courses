@@ -29,6 +29,12 @@
     display: flex;
     flex-flow: row; 
     flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.caption {
+    text-align: center;
 }
 
 .col-1 {
@@ -45,37 +51,6 @@
 
 .col-4 {
     width: 33.33%;
-}
-
-.left {
-    text-align: right;
-}
-
-.img-left {
-    max-width:100%;
-    max-height:100%;
-}
-
-.img-center {
-    display: block;
-    margin: auto;
-    max-width:100%;
-    max-height:100%;
-}
-
-.caption-center {
-    text-align: center;
-}
-
-.img-right {
-    display: block;
-    margin-left: auto;
-    max-width:100%;
-    max-height:100%;
-}
-
-.caption-right {
-    text-align: right;
 }
 
 .col-5 {
